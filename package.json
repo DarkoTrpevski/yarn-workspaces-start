@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "mono-repo",
+  "workspaces": [
+    "adminclient",
+    "webclient"
+  ],
+  "scripts": {
+    "adminclient": "yarn workspace @mono-repo/adminclient",
+    "webclient": "yarn workspace @mono-repo/webclient"
+  },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22.15",
+    "node": ">=16.13.1"
+  }
+}
